@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background.style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário para gatos</h1>
+     <div class="box">
+        <div class="aviso">
+        <h2>ATENÇÃO</h2>
+        <p>Esse formulário é destinado apenas para gatos, se voce for um humano ou qualquer outro animal, por
+            favor se retire.</p>
+        </div>
+        <div class="perg">
+            <label for="seu-nome">Qual o seu nome de pet?</label>
+            <input type="text" id="seu-nome">
+        </div>
+        
+        <div class="perg">
+            <label for="sua-raça">Qual a sua raça?</label>
+            <input type="text" id="sua-raça">
+        </div>
+
+        <div class="perg">
+            <label for="person">Qual seu tipo de personalidade?</label>
+            <input type="text" id="person">
+        </div>
+        
+        <div class="perg">
+
+            <div class="bol">
+            <h4>Qual das alternativas a seguir define melhor o horario do seu pico de energia?</h4>
+            
+            <div  class="opc-line">
+            <input type="radio" id="manha" name="pico-energia">
+            <label for="manha">De manhã, gosto de incomodar meu dono bem cedo</label>
+            </div>
+
+            <div class="opc-line">
+            <input type="radio" id="tarde" name="pico-energia">
+            <label for="tarde">De tardezin</label>
+            </div>
+
+            <div class="opc-line">
+            <input type="radio" name="pico-energia" id="noite">
+            <label for="noite">Quando está anoitecendo</label>
+            </div>
+
+            <div class="opc-line">
+            <input type="radio" name="pico-energia" id="meia-noite">
+            <label for="meia-noite">As 3 da manhã, horario perfeito</label>
+            </div>
+        </div>
+        </div>
+
+        <h4 class="inf-final">Por fim, hora de criar uma senha!</h4>
+
+        <div class="senha">
+        <label for="senh">Crie uma senha</label>
+        <input type="password" id="senh">
+        </div>
+
+        <div class="senha">
+        <label for="conf-senh">Confirme sua senha</label>
+        <input type="password" id="conf-senh">
+        </div>
+
+       <div class="inv">
+        <button class= "enviar">Enviar</button>
+      </div>
+
+     </div>
+    </div>
+</body>
+</html>
